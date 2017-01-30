@@ -112,7 +112,7 @@
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 
-    const trasnportation = data.reduce( (obj, item) => {
+    const transportation = data.reduce( (obj, item) => {
       if( !obj[item] ){ obj[item] = 0; }
       obj[item]++;
       return obj;
@@ -123,7 +123,7 @@
     // ... ( auto-populate in function ^^ )
     });
 
-    console.log( trasnportation );
+    console.log( transportation );
 
   </script>
 </body>
